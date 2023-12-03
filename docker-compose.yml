@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  my_apache_container:
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    container_name: my_apache_container
